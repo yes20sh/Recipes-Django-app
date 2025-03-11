@@ -33,7 +33,13 @@ external_url = [
     path('success_page/', success_page, name="success Page"),
     path('recipes/', recipes, name = "My recipe app"),
     path('delete_recipe/<int:id>/', delete_recipe, name = "deleting the recipe"),
-    path('update_recipe/<int:id>/', update_recipe, name = "update the recipe")
+    path('update_recipe/<int:id>/', update_recipe, name = "update the recipe"),
+    path('login/', login_page, name = "login page"),
+    path('register/', register, name = "register page"),
+    path('logout/', logout_page, name = "logout page")
+
+
+
 
 
 ]
